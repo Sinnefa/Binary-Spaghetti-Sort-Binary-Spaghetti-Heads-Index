@@ -1,6 +1,7 @@
 # Spaghetti Sort Using Bitwise Operations
 A freaky implementation of the Spaghetti Sort using bits, binary numbers and as many bitwise operations as possible
-Spaghetit sort: https://en.wikipedia.org/wiki/Spaghetti_sort
+
+Spaghetti sort: https://en.wikipedia.org/wiki/Spaghetti_sort
 
 My implementation using binary operations. Because of its nature it sorts N+ numbers {1, 2, 3, ...}
 # Key points:
