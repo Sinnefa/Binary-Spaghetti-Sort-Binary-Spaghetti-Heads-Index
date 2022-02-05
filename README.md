@@ -16,3 +16,6 @@ Because of its nature it sorts N+ numbers {1, 2, 3, ...}
 2. Don't use imports
 3. Use as many bitwise operations as possible
 Note: Instead our hand we will be using a mask of bits
+
+# Wordy explanation:
+Take each number in the list and create rods of 1's of the same lengths as the numbers. With a mask of bits slide from the top down using XOR's to get rid of selected spaghetti.
