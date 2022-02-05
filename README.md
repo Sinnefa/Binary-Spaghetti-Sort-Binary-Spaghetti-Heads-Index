@@ -3,7 +3,10 @@ A freaky implementation of the Spaghetti Sort using bits, binary numbers and as 
 
 Spaghetti sort: https://en.wikipedia.org/wiki/Spaghetti_sort
 
-My implementation using binary operations. Because of its nature it sorts N+ numbers {1, 2, 3, ...}
+My implementation using binary operations. 
+
+Because of its nature it sorts N+ numbers {1, 2, 3, ...}
+
 # Key points:
 1. Mimic the spaghetti sort main steps
 - Spaghetti creation
