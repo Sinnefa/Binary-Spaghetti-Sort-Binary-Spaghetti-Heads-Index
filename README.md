@@ -1,2 +1,13 @@
 # Spaghetti Sort Using Bitwise Operations
 A freaky implementation of the Spaghetti Sort using bits, binary numbers and as many bitwise operations as possible
+
+Spaghetti sort implementation using binary operations. Because of its nature it sorts N+ numbers {1, 2, 3, ...}
+# Key points:
+1. Mimic the spaghetti sort main steps
+- Spaghetti creation
+- Spaghetti alignments according to length
+- Hand moving down to collect spaghetti by length
+
+2. Don't use imports
+3. Use as many bitwise operations as possible
+Note: Instead our hand we will be using a mask of bits
