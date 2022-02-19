@@ -18,7 +18,7 @@ BinarySpaghettiSort([3,42,4234,23])
 # Algorithm
 
 ```
-def BinarySpaghettiSort(values):
+def BinarySpaghettiSort(values, reverse=False):
   length = len(values)
   sorted = [0]*length
   maximum = max(values)
@@ -32,7 +32,15 @@ def BinarySpaghettiSort(values):
     binary_spaghetti_heads_index[(n-minimum)] += 1<<(length-1-i)
     
   index = 0
-  for xor in binary_spaghetti_heads_index:
+  start = 0
+  stop = len(binary_spaghetti_heads_index)
+  pace = 1
+  if reverse:
+    start = len(binary_spaghetti_heads_index)-1
+    stop = -1
+    pace = -1
+  for i in range(start,stop,pace):
+    xor = binary_spaghetti_heads_index[i]
     #if xor is None: # De-Comment to use sparse data structure
     #  continue # De-Comment to use sparse data structure
     while xor > 0:
