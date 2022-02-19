@@ -1,6 +1,8 @@
 # Binry Spaghetti Sort and Binary Spaghetti Index
 Repository of the publication:
+
 Author: Alberto Calderone
+
 Contact: sinnefa@gmail.com
 
 # Description
