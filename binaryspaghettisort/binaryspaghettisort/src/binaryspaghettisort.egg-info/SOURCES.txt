@@ -1,8 +1,0 @@
-LICENSE
-README.md
-setup.py
-binaryspaghettisort/src/binaryspaghettisort.py
-binaryspaghettisort/src/binaryspaghettisort.egg-info/PKG-INFO
-binaryspaghettisort/src/binaryspaghettisort.egg-info/SOURCES.txt
-binaryspaghettisort/src/binaryspaghettisort.egg-info/dependency_links.txt
-binaryspaghettisort/src/binaryspaghettisort.egg-info/top_level.txt
