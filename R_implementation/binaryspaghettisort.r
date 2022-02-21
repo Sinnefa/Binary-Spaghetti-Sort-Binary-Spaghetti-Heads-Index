@@ -1,5 +1,10 @@
+library("gmp")
 BinarySpaghettiSort <- function(values, reverse=F) {
   length <- length(values)
+  if (length>30) {
+    print("Input vector too long for R, if you need to use longer vectors use GMP for R and libgmp3-dev")
+    return <- values
+  }
   sorted <- c()
   maximum <- max(values)
   minimum <- min(values)
