@@ -1,5 +1,5 @@
 # Binry Spaghetti Sort and Binary Spaghetti Index
-Repository of the publication:
+Repository of the publication: https://www.techrxiv.org/articles/preprint/Binary_Spaghetti_Sort_and_The_Binary_Spaghetti_Heads_Index/19224645
 
 Author: Alberto Calderone
 
