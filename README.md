@@ -54,6 +54,6 @@ def BinarySpaghettiSort(values, reverse=False):
   return sorted
 ```
 
-## (Bonus) Electrical Circuit in Logisim
+## Electrical Circuit in Logisim
 <img src="/images/Main_Circuit_2.png" alt="drawing" width="600"/>
 <img src="/images/Loop_Circuit_1.png" alt="drawing" width="600"/>
